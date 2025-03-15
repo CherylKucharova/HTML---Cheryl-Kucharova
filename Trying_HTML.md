@@ -22,8 +22,18 @@
 The <.a> tag defines a hyperlink. The href attribute specifies the URL of the page the link goes to: </br> <a href="https://itbss.lms.siakad.tech/beranda">Visit LMS</a>
 
 ### The src Atriibute
-The <.img> tag is used to embed an image in an HTML page. The .src attribute specifies the path to the image to be displayed: </br> 
-<img src="https://pin.it/2OVUIW3JD">
+The <.img> tag is used to embed an image in an HTML page. The .src attribute specifies the path to the image to be displayed: 
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The src Attribute</h2>
+<p>HTML images are defined with the img tag, and the filename of the image source is specified in the src attribute:</p>
+<img src="https://pin.it/2OVUIW3JD" width="500" height="600">
+
+</body>
+</html>
+
 
 ### The width and height Attibutes
 The <.img> tag should also contain the width and height attributes, which specify the width and height of the image (in pixels):
@@ -127,11 +137,20 @@ The HTML style attribute is used to add styles to an element, such as color, fon
 
 <html>
 <body>
-
 <p>I am normal</p>
-<p <style="color:red;">I am red</p>
-<p <style="color:blue;">I am blue</p>
-<p <style="font-size:50px;"> I am big</p>
+<p style="color:red;">I am red</p>
+<p style="color:blue;">I am blue</p>
+<p style="font-size:50px;">I am big</p>
+</body>
+</html>
+
+### Background Color 
+
+<html>
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph</p>
 
 </body>
 </html>
