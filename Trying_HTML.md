@@ -180,3 +180,46 @@ The HTML style attribute is used to add styles to an element, such as color, fon
 ### Text Size
 <h1 style="font-size:300%;">This is a heading</h1>
 <p style="font-size:160%;">This is a paragraph.</p>
+
+### Text Alignment
+<html>
+  <body>
+    <h1 style="text-align:center;">Centered Heading</h1>
+    <p style="text-align:center;">Centered paragraph.</p>
+  </body>
+</html>
+
+----
+## HTML Text Formatting
+
+### HTML <.b> and <.strong> Elements
+<b>This text is bold</b> <br>
+<strong>This text is important!</strong>
+
+### HTML <.i> and <.em> Elements
+<i>This text is italic</i> <br>
+<em>This text is emphasized</em>
+
+### HTML <.small> Element
+<small>This is some smaller text.</small>
+
+### HTML <.mark> Element
+defines text that should be marked or highlighted:
+<p>Do not forget to buy <mark>milk</mark> today.</p>
+
+### HTML <.del> Element
+<p>My favorite color is <del>blue</del> red.</p>
+
+### HTML <.ins> Element
+<p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+
+### HTML <.sub> Element
+defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:
+<p>This is <sub>subscripted</sub> text.</p>
+
+### HTML <.sup> Element
+defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]:
+<p>This is <sup>superscripted</sup> text.</p>
+
+----
+## HTML Quotation and Citation Elements
